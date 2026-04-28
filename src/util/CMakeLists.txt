@@ -1,0 +1,8 @@
+
+set(PRIMROSE_UTIL_FILES ${PRIMROSE_UTIL_FILES}
+        ${CMAKE_CURRENT_LIST_DIR}/vectorutil.h
+        ${CMAKE_CURRENT_LIST_DIR}/vectorutil.cpp
+        ${CMAKE_CURRENT_LIST_DIR}/taskmanager.h
+)
+
+set(PRIMROSE_UTIL_FILES ${PRIMROSE_UTIL_FILES} PARENT_SCOPE)
